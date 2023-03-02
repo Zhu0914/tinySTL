@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TinySTL_master"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/download/learn/TinySTL-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/download/mingw64/bin/mingw32-make.exe -f &quot;D:/download/learn/TinySTL-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/download/mingw64/bin/mingw32-make.exe -f &quot;D:/download/learn/TinySTL-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/download/mingw64/bin/mingw32-make.exe -f &quot;D:/download/learn/TinySTL-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/download/mingw64/bin/mingw32-make.exe -f &quot;D:/download/learn/TinySTL-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TinySTL_master">
+				<Option output="D:/download/learn/TinySTL-master/cmake-build-debug/TinySTL_master.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/download/learn/TinySTL-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/download/learn/TinySTL-master/."/>
+					<Add directory="D:/download/learn/TinySTL-master/test"/>
+					<Add directory="D:/download/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/download/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/download/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/download/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/download/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/download/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/download/mingw64/bin/mingw32-make.exe -f &quot;D:/download/learn/TinySTL-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 TinySTL_master"/>
+					<CompileFile command="D:/download/mingw64/bin/mingw32-make.exe -f &quot;D:/download/learn/TinySTL-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/download/mingw64/bin/mingw32-make.exe -f &quot;D:/download/learn/TinySTL-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/download/mingw64/bin/mingw32-make.exe -f &quot;D:/download/learn/TinySTL-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TinySTL_master/fast">
+				<Option output="D:/download/learn/TinySTL-master/cmake-build-debug/TinySTL_master.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/download/learn/TinySTL-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/download/learn/TinySTL-master/."/>
+					<Add directory="D:/download/learn/TinySTL-master/test"/>
+					<Add directory="D:/download/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/download/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/download/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/download/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/download/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/download/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/download/mingw64/bin/mingw32-make.exe -f &quot;D:/download/learn/TinySTL-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 TinySTL_master/fast"/>
+					<CompileFile command="D:/download/mingw64/bin/mingw32-make.exe -f &quot;D:/download/learn/TinySTL-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/download/mingw64/bin/mingw32-make.exe -f &quot;D:/download/learn/TinySTL-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/download/mingw64/bin/mingw32-make.exe -f &quot;D:/download/learn/TinySTL-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/download/learn/TinySTL-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/download/mingw64/bin/mingw32-make.exe -f &quot;D:/download/learn/TinySTL-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/download/mingw64/bin/mingw32-make.exe -f &quot;D:/download/learn/TinySTL-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/download/mingw64/bin/mingw32-make.exe -f &quot;D:/download/learn/TinySTL-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/download/mingw64/bin/mingw32-make.exe -f &quot;D:/download/learn/TinySTL-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/download/learn/TinySTL-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/download/mingw64/bin/mingw32-make.exe -f &quot;D:/download/learn/TinySTL-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/download/mingw64/bin/mingw32-make.exe -f &quot;D:/download/learn/TinySTL-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/download/mingw64/bin/mingw32-make.exe -f &quot;D:/download/learn/TinySTL-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/download/mingw64/bin/mingw32-make.exe -f &quot;D:/download/learn/TinySTL-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/download/learn/TinySTL-master/alloc.h">
+			<Option target="TinySTL_master"/>
+		</Unit>
+		<Unit filename="D:/download/learn/TinySTL-master/allocator.h">
+			<Option target="TinySTL_master"/>
+		</Unit>
+		<Unit filename="D:/download/learn/TinySTL-master/construct.h">
+			<Option target="TinySTL_master"/>
+		</Unit>
+		<Unit filename="D:/download/learn/TinySTL-master/deque.h">
+			<Option target="TinySTL_master"/>
+		</Unit>
+		<Unit filename="D:/download/learn/TinySTL-master/heap.h">
+			<Option target="TinySTL_master"/>
+		</Unit>
+		<Unit filename="D:/download/learn/TinySTL-master/iterator.h">
+			<Option target="TinySTL_master"/>
+		</Unit>
+		<Unit filename="D:/download/learn/TinySTL-master/list.h">
+			<Option target="TinySTL_master"/>
+		</Unit>
+		<Unit filename="D:/download/learn/TinySTL-master/main.cpp">
+			<Option target="TinySTL_master"/>
+		</Unit>
+		<Unit filename="D:/download/learn/TinySTL-master/memory.h">
+			<Option target="TinySTL_master"/>
+		</Unit>
+		<Unit filename="D:/download/learn/TinySTL-master/priority_queue.h">
+			<Option target="TinySTL_master"/>
+		</Unit>
+		<Unit filename="D:/download/learn/TinySTL-master/queue.h">
+			<Option target="TinySTL_master"/>
+		</Unit>
+		<Unit filename="D:/download/learn/TinySTL-master/set.h">
+			<Option target="TinySTL_master"/>
+		</Unit>
+		<Unit filename="D:/download/learn/TinySTL-master/stack.h">
+			<Option target="TinySTL_master"/>
+		</Unit>
+		<Unit filename="D:/download/learn/TinySTL-master/test/test.h">
+			<Option target="TinySTL_master"/>
+		</Unit>
+		<Unit filename="D:/download/learn/TinySTL-master/test/test_alloc.h">
+			<Option target="TinySTL_master"/>
+		</Unit>
+		<Unit filename="D:/download/learn/TinySTL-master/test/test_list.h">
+			<Option target="TinySTL_master"/>
+		</Unit>
+		<Unit filename="D:/download/learn/TinySTL-master/test/test_vector.h">
+			<Option target="TinySTL_master"/>
+		</Unit>
+		<Unit filename="D:/download/learn/TinySTL-master/tree.h">
+			<Option target="TinySTL_master"/>
+		</Unit>
+		<Unit filename="D:/download/learn/TinySTL-master/type_traits.h">
+			<Option target="TinySTL_master"/>
+		</Unit>
+		<Unit filename="D:/download/learn/TinySTL-master/uninitialized.h">
+			<Option target="TinySTL_master"/>
+		</Unit>
+		<Unit filename="D:/download/learn/TinySTL-master/vector.h">
+			<Option target="TinySTL_master"/>
+		</Unit>
+		<Unit filename="D:/download/learn/TinySTL-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
